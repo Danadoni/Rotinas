@@ -12,6 +12,12 @@ export default function App() {
         imagem ='https://img.freepik.com/vetores-gratis/pilha-de-livros-de-design-plano-desenhado-a-mao_23-2149334862.jpg'
         Descricao ='' 
       />  
+      <Card 
+        porcentagem = '45%' 
+        titulo = 'Leitura'
+        imagem ='https://img.freepik.com/vetores-gratis/pilha-de-livros-de-design-plano-desenhado-a-mao_23-2149334862.jpg'
+        Descricao ='' 
+      /> 
       
      
       
