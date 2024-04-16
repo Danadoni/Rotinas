@@ -1,18 +1,17 @@
 let DATA =  [
-
     {
-        id:'01',
-        porcentagem :'5%', 
-        titulo : 'Leitura',
-        imagem :'https://img.freepik.com/vetores-gratis/pilha-de-livros-de-design-plano-desenhado-a-mao_23-2149334862.jpg',
-        Descricao :'vLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever sinic'  
+    id:'01',
+    porcentagem :'5%', 
+    titulo : 'Leitura',
+    imagem :'https://img.freepik.com/vetores-gratis/pilha-de-livros-de-design-plano-desenhado-a-mao_23-2149334862.jpg',
+     Descricao :'vLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever sinic'  
     },
     {
-        id:'02',
-        porcentagem :'50%', 
-        titulo : 'Trabalho',
-        imagem :'https://www.incqs.fiocruz.br/images/stories/incqs/Relaes-trabalho-1.jpg',
-        Descricao :'vLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsumt has survived not only five centuries, but also the leap into electronic' 
+     id:'02',
+     porcentagem :'50%', 
+    titulo : 'Trabalho',
+     imagem :'https://www.incqs.fiocruz.br/images/stories/incqs/Relaes-trabalho-1.jpg',
+     Descricao :'vLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsumt has survived not only five centuries, but also the leap into electronic' 
     },
     {
         id:'03',

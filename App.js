@@ -2,31 +2,35 @@ import React from 'react';
 import { Text, StyleSheet, View, Image,FlatList} from 'react-native';
 import Header from './components/Header';
 import Card from './components/Card';
-import DATA from './data';
+import ROTINAS from './data';
 
 export default function App() {
   return (
     <View style={estilo.container}>
       <Header></Header>
+     <View style = {{width:'100%'}}>
+      <FlatList 
+      data = {ROTINAS}
+      horizontal ={true}
+      keyExtractor = {(item)=>item.id}
+      renderItem = {({item}) => (
 
-      
-
-
-    <FlatList
-      data={DATA}
-      keyExtractor={(item)=> item.id}
-      renderItem={({item})=> (
-        <Card
-        porcentagem ={item.porcentagem}
+        <Card 
         titulo = {item.titulo}
-        imagem = {item.imagem}
         descricao = {item.Descricao}
-
-
+        porcentagem = {item.porcentagem}
+        imagem ={item.imagem}
+        
         />
-  )}
 
-    />
+      )}
+      
+      
+      /> 
+      </View>     
+
+
+
 
 
 
