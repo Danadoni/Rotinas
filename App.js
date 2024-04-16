@@ -1,23 +1,36 @@
 import React from 'react';
-import { Text, StyleSheet, View, Image } from 'react-native';
+import { Text, StyleSheet, View, Image,FlatList} from 'react-native';
 import Header from './components/Header';
 import Card from './components/Card';
+import DATA from './data';
+
 export default function App() {
   return (
     <View style={estilo.container}>
       <Header></Header>
-      <Card 
-        porcentagem = '45%' 
-        titulo = 'Leitura'
-        imagem ='https://img.freepik.com/vetores-gratis/pilha-de-livros-de-design-plano-desenhado-a-mao_23-2149334862.jpg'
-        Descricao ='' 
-      />  
-      <Card 
-        porcentagem = '45%' 
-        titulo = 'Leitura'
-        imagem ='https://img.freepik.com/vetores-gratis/pilha-de-livros-de-design-plano-desenhado-a-mao_23-2149334862.jpg'
-        Descricao ='' 
-      /> 
+
+      
+
+
+    <FlatList
+      data={DATA}
+      keyExtractor={(item)=> item.id}
+      renderItem={({item})=> (
+        <Card
+        porcentagem ={item.porcentagem}
+        titulo = {item.titulo}
+        imagem = {item.imagem}
+        descricao = {item.Descricao}
+
+
+        />
+  )}
+
+    />
+
+
+
+  
       
      
       
